@@ -41,6 +41,19 @@ html {
       left: 10%;
       top: 5%;
     }}
+#date {
+    position: absolute;
+    width: 18vw;
+    left: 41%;
+    top: 32%;
+    z-index: 4;
+}
+@media only screen and (max-width: 670px) {
+    #date {
+      left: 39%;
+      top: 23%;
+      width: 26vw;
+    }}
 
 #clouds {
     position: absolute;
@@ -60,7 +73,7 @@ html {
     position: absolute;
     width: 18vw;
     height: 3.25vw;
-    left: 33%;
+    left: 30%;
     top: 42%;
     background-image: url("../assets/registerButton.png");
     background-size: cover;
@@ -80,7 +93,7 @@ html {
     position: absolute;
     width: 18vw;
     height: 3.25vw;
-    left: 54%;
+    left: 51%;
     top: 42%;
     background-image: url("../assets/mentorButton.png");
     background-size: cover;
@@ -97,6 +110,34 @@ html {
           left: 25%;
           top: 45%;
         }}
+
+#what1 {
+    position: absolute;
+    width: 42vw;
+    left: 6%;
+    top: 58%;
+    z-index: 5;
+}
+@media only screen and (max-width: 670px) {
+    #what1 {
+      width: 66vw;
+      left: 15%;
+      top: 56%;
+    }}
+
+#what2 {
+    position: absolute;
+    width: 42vw;
+    left: 51%;
+    top: 62%;
+    z-index: 5;
+}
+@media only screen and (max-width: 670px) {
+    #what2 {
+        width: 66vw;
+        left: 15%;
+        top: 75%;
+    }}
 
 #a1 {
     position: absolute;
@@ -160,4 +201,4 @@ html {
     .footer {
       font-size: 1.8vw;
       top: 240vw; } }
-    }
+
