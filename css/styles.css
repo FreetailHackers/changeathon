@@ -224,14 +224,27 @@ html {
 
 #a5 {
     position: absolute;
-    left: 18%;
-    top: 15%;
-    width: 30vw;
+    left: 10%;
+    top: 10%;
+    width: 50vw;
     z-index: 3;
 }
 @media only screen and (max-width: 670px) {
     #a5 {
         display: none;
+    }}
+
+#sponsor {
+    position: absolute;
+    width: 12vw;
+    top: 30%;
+    left: 30%;
+    z-index: 3;
+}
+@media only screen and (max-width: 670px) {
+    #sponsor {
+        top: 3%;
+        left: 5%;
     }}
 
 .mountains {
