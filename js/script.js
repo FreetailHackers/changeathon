@@ -65,6 +65,26 @@ function getStyleSheet(unique_title) {
   }
 }
 
+let hackathonButton = document.getElementById("hackathon-button");
+let judgingButton = document.getElementById("judging-button");
+
+let hackathonSchedule = document.getElementById("hackathon-schedule");
+let judgingSchedule = document.getElementById("judging-schedule");
+judgingSchedule.style.display = "none";
+
+hackathonButton.onclick = function() {
+    hackathonSchedule.style.display = "grid";
+    judgingSchedule.style.display = "none";
+    hackathonButton.classList.add("active");
+    judgingButton.classList.remove("active");
+}
+
+judgingButton.onclick = function() {
+    hackathonSchedule.style.display = "none";
+    judgingSchedule.style.display = "grid";
+    hackathonButton.classList.remove("active");
+    judgingButton.classList.add("active");
+}
 
 // allow parallax only on desktop view
 function parallax() {
