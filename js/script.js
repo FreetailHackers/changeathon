@@ -118,7 +118,7 @@ function setBackground() {
   var current_hour = date.getHours();
   // start at Noon
   //Debug
-  //current_hour= 24;
+  //current_hour= 12;
   current_hour = Math.abs(current_hour-12);
   // Hacky way to get style sheet
   var styleSheet = document.styleSheets[2];
